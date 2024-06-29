@@ -1,0 +1,29 @@
+.swiper-button-next, .swiper-button-prev {
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 34px; 
+    height: 34px;
+    box-sizing: border-box;
+  }
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  
+  .swiper-pagination-bullet {
+    background: rgba(88, 139, 139, 0.50);
+    /* TODO: add shadow */
+  }
+  
+  .swiper-pagination-bullet-active {
+    /* background: rgba(242, 143, 59, 0.50);  */
+    background-color: #F28F3B;
+    border-color: #F28F3B;
+  }
+
+  .thumbnail-slider .swiper-slide {
+    cursor: pointer;
+  }
+  
